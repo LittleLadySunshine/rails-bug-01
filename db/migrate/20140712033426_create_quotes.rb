@@ -3,6 +3,7 @@ class CreateQuotes < ActiveRecord::Migration
     create_table :quotes do |t|
       t.text :text
       t.string :author
+
     end
   end
 end
